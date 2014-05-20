@@ -17,5 +17,5 @@ matches = client.complete('part', 3)
 
 * connection: a Redis connection, default is trying to connect to a local instance
 * namespace: an identifier in case you want to maintain several lists simultaneously. default is `default`
-* min_length: The minimum length partial length to look for. Important when you add words. You might need
-to reimport the list of you decide to change the value. default is 3.
+* min_length: The minimum length length of the prefix to match against. Important when you add words. You might need
+to reimport the list if you decide to change the value. default is 3.
